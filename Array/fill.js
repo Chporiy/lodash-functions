@@ -13,5 +13,4 @@ const fill = (array, value, start = 0, end = array.length) => {
   });
 }
 
-// console.log( fill([1, 2, 3, 4], '*', 1, 2) );
 console.log( fill(Array(3), 2) );
