@@ -1,0 +1,25 @@
+{
+  "name": "lodash-functions",
+  "version": "1.0.0",
+  "description": "lodash-functions on ES6",
+  "main": "index.js",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^6.4.0",
+    "mocha": "^6.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "mocha": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chporiy/lodash-functions.git"
+  },
+  "author": "Egor Arinov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chporiy/lodash-functions/issues"
+  },
+  "homepage": "https://github.com/Chporiy/lodash-functions#readme"
+}
