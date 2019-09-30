@@ -5,11 +5,11 @@
  */
 
 const flatten = (array) => {
+  let lastItem;
   for (let i = 0; i < array.length; i++) {
     if ( array[i] instanceof Array ) {
       const tempArr = [...array[i]];
-      array.splice(i, array.length + i);
-      tempArr.forEach(item => array.push(item));
+      array.splice(i, array.length + i, ...tempArr);
       return array;
     }     
   }

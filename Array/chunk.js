@@ -4,7 +4,7 @@
   index - позиция с которой разделить массив
 */
 
-const chunk = (array, index) => {
+module.exports = chunk = (array, index) => {
   let firstArray = [],
       secondArray = [],
       pos = 0;
@@ -12,7 +12,7 @@ const chunk = (array, index) => {
     i < index ? firstArray[i] = item : secondArray[pos++] = item;
   });
 
-  return {firstArray, secondArray};
+  return [firstArray, secondArray];
 }
 
 console.log(chunk([1, 2, 3, 4], 2));
